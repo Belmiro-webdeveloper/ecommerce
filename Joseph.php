@@ -250,8 +250,8 @@ for( $j=2; $j<$int1; $j++){
 <p>welcome to my <?php echo"profile(Belmiro Mohlala) ".date("l")." <strong>I was testing that function</strong >" ?></p>
 </div>-->
 <div id="contact1">
-    <p>Copyright<strong>&copy;&reg;</strong>2020<span>Joseph Nkwana</span>.All Rights Reserved</p>
-    <p>Powered by <a href="http://www.weballtechnologies.co.za">WebAll Technologies</a></p>
+    <p>Copyright<strong>&copy;&reg;</strong>2021<span>Demo Shopping</span>. All Rights Reserved</p>
+    <p>Powered by <a href="http://www.weball.co.za">WebAll Technologies</a></p>
 </div>
 
 

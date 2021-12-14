@@ -46,11 +46,11 @@ input[type=submit]:hover{
 	
 	.logo{
 		position:absolute;
-		left:10%;
+		left:5px;
 	}
 	.logo img{
-		width:100px;
-		height:100px;
+		width:60px;
+		height:60px;
 	}
 	.check_out{
 		padding: 10px;
@@ -76,17 +76,18 @@ input[type=submit]:hover{
 
 	.login{
 		position:absolute;
-		top:40%;
-		right:20%;
+		top:13px;
+		right:26%;
 	}
 	.login a{
 		background-color:red;
 		color:white;
-		padding:4px;
+		padding:6px;
 		border-radius:4px;
-		font-size:25px;
+		font-size:20px;
 		text-decoration:none;
-		box-shadow:2px 2px black;
+		box-shadow:2px 2px 3px black;
+		font-weight: bold;
 	}
 	.login a:link{
 		color:white;
@@ -620,6 +621,7 @@ animation:contact 1s;
 		background-color:black;
 		height:40px;
 		padding-left:8px;
+		display: none;
 		
 	}
 	.menu1{
@@ -632,28 +634,28 @@ animation:contact 1s;
 	
 	.items{
 		background-color:white;
-		border-radius:10px;
-		width:30px;
+		border-radius:50%;
+		width:20px;
 		height:20px;
 		position:absolute;
-		top:1.3em;
-		right:15%;
+		top:0px;
+		right:20%;
 		text-align:center;
-		padding-bottom:10px;
+		padding:auto;
 		color:red;
 		font-weight:bold;
-		font-size:20;
+		font-size:15px;
 	}
 	
 	.cart i{
-		font-size:65px;
+		font-size:45px;
 		color:red;
 	}
 	
 	.cart{
 		position:absolute;
-		top:2em;
-		right:15%;
+		top:9px;
+		right:19%;
 	}
 	.cart:hover{
 		opacity:0.5;
@@ -661,52 +663,51 @@ animation:contact 1s;
 	
 	.search{
 		position:absolute;
-		top:2em;
+		top:10px;
 		right:2%;
 	}
 	.search input[type=text]{
 		color:blue;
 		font-size:17px;
-		padding: 18px 14px;
+		padding: auto;
 		text-align:center;
 	}
 	
 	.search input{
-		width:100px;
-		height:50px;
+		width:10em;
+		height:32px;
+		margin: 0;
 	}
 	
 	.search button{
-		float:right;
-		padding:12px;
+		text-align: center;
+		padding:auto;
 		color:blue;
-		margin-right:15px;
-		height:50px;
+		margin:0;
+		height:32px;
 		
 	}
 	
 	
 	.top{
 		
-		height:120px;
-		margin:0px -2px 0px -20px;
-		padding:15px;
+		height:4em;
+		margin:0;
+		padding:0px;
 		position:fixed;
 		background-color:blue;
 		color:white;
-		width:105%;
-		top:-20px;
-		left:-1em;
+		width:100%;
+		top:0px;
+		left:0em;
 		z-index:1;
 		
 		
 	}
 .top h1{
 	    color:white;
-		text-shadow:5px 5px maroon;
-		font-size:3em;
-		font-style:italic;
-		line-height:100%;
+		text-shadow:2px 5px 4px black;
+		font-size:2.5em;
 	}
 	
 	body{ 
@@ -719,13 +720,8 @@ width:100%;}
 
 .title{
 	position:absolute;
-	top:2em;
-	left:30%;
-}
-.title1{
-	position:absolute;
-	top:2em;
-	left:30%;
+	top:10px;
+	left:20%;
 }
 
 .useravator{
