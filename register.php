@@ -189,7 +189,7 @@ if($_SERVER["REQUEST_METHOD"]== "POST"){
         </div>
 
     </div>
-<div class="logo"><img src="img/logo.PNG" alt="logo"></div>
+<div class="logo"><img src="img/logo.png" alt="logo"></div>
     <div class="title">
         <h1 style='width:100%;left:40%;'>Create New  Account</h1>
     </div>

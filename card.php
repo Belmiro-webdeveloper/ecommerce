@@ -68,7 +68,7 @@ else{
         </div>
 
     </div>
-<div class="logo"><img src="img/logo.PNG" alt="logo"></div>
+<div class="logo"><img src="img/logo.png" alt="logo"></div>
     <div class="title1">
         <h1 >Items In Cart  <i class="fa fa-shopping-cart"></i> </h1>
     </div>
@@ -210,12 +210,13 @@ $sql = CREATE TABLE transactions(
     )*/
 
 ?>
+<div class="bottom_card">
 <div class="joseph-description container pt-3"  >
 <p class="text-info">Thank You for visiting Our Online Store we are Trusted Company<br>
 
 We keep serving 1000+ <strong>Customers</strong> Everyday.<br></p>
 </div>
-
+</div>
 
  
 

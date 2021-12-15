@@ -10,7 +10,7 @@ if(isset($_SESSION["logged"]) ){
     $login_avator="<button type='button' class='useravator btn btn-primary' data-toggle='modal' data-target='#myModal'>
     <div class='username'>". $user."</div>
  
-    <img src='img/riba.png'  alt='avator'>
+    <img src='img/riba.PNG'  alt='avator'>
 </button>";
 }
 
@@ -78,7 +78,7 @@ item_price VARCHAR(200)
 <body >
 <div class="top" >
 <div id = "add_cart_results"></div>
-<div class="logo"><img src="img/logo.PNG" alt="logo"></div>
+<div class="logo"><img src="img/logo.png" alt="logo"></div>
 <?php echo $login_btn;?>
     <div class="title">
         <h1>DEMO<span class="phones">, SHOPPING </span> <span class="desktop">e-Store</span> </h1>
