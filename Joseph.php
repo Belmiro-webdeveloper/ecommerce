@@ -81,7 +81,7 @@ item_price VARCHAR(200)
 <div class="logo"><img src="img/logo.png" alt="logo"></div>
 <?php echo $login_btn;?>
     <div class="title">
-        <h1>DEMO<span class="phones">, SHOPPING </span> <span class="desktop">e-Store</span> </h1>
+        <h1>DEMO SHOPPING  </h1>
     </div>
 	
     <div class="search">

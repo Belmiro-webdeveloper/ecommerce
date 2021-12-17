@@ -265,7 +265,7 @@
 background-color:#99ffff;
 border-radius:15px;
 position:absolute;
-top:108em;
+top:500em;
 width:95%;
 animation:contact 1s;
 -webkit-animation:contact 1s;}
@@ -348,7 +348,7 @@ animation:contact 1s;
 	.dress{
 		float:left;
 		margin-left:20px;
-		border:3px solid black;
+		border:3px solid rgb(18, 226, 209);
 		padding:10px;
 		border-radius:10px;
 		margin-top:4em;

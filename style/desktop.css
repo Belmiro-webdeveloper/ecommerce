@@ -46,7 +46,7 @@ input[type=submit]:hover{
 	
 	.logo{
 		position:absolute;
-		left:5px;
+		left:1%;
 	}
 	.logo img{
 		width:60px;
@@ -77,16 +77,17 @@ input[type=submit]:hover{
 	.login{
 		position:absolute;
 		top:13px;
-		right:26%;
+		right:31%;
+
 	}
 	.login a{
 		background-color:red;
 		color:white;
 		padding:6px;
 		border-radius:4px;
-		font-size:20px;
+		font-size:25px;
 		text-decoration:none;
-		box-shadow:2px 2px 3px black;
+		box-shadow:2px 2px 3px rgb(54, 54, 54);
 		font-weight: bold;
 	}
 	.login a:link{
@@ -368,15 +369,6 @@ top:-2em;
 	
 
 	
-	
-	.contact{
-background-color:#99ffff;
-position: relative;
-left:-1em;
-bottom: -12em;
-width:103%;
-animation:contact 1s;
--webkit-animation:contact 1s;}
 
 @keyframes contact{ from{ 
 	                          transform:scale(0.3);}
@@ -395,18 +387,7 @@ animation:contact 1s;
  }
 							  
 
-#contact1{ text-align:center;}
 
-#about p{text-align:center; color: black;
- font-size:14px;}
-#contact1 p{ color:black;font-size:14px;}
-
-#about p a{font-size:9px; color:red;}
-
-
-.contact3{color:red;font-weight:bold;font-size:16px; padding: 6px;}
-
-.about1{color:red;font-weight:bold; font-size:16px; padding: 6px;}
 
       .women h2{
 		color:blue;
@@ -463,7 +444,6 @@ animation:contact 1s;
 		position:relative;
 		top:12em;
 		text-align:center;
-		border: 1px solid grey;
 		margin:0px 0px 4em 0px;
 		padding: 10px;
 	}
@@ -471,7 +451,7 @@ animation:contact 1s;
 .dress{
 		/*float:left;*/
 		margin-left:20px;
-		border:3px solid black;
+		border:1px solid rgb(55, 200, 219);
 		padding:10px;
 		border-radius:10px;
 		margin-top:4em;
@@ -638,7 +618,6 @@ animation:contact 1s;
 	}
 	
 	.items{
-		background-color:white;
 		border-radius:50%;
 		width:20px;
 		height:20px;
@@ -647,7 +626,7 @@ animation:contact 1s;
 		right:20%;
 		text-align:center;
 		padding:auto;
-		color:red;
+		color:rgb(248, 242, 242);
 		font-weight:bold;
 		font-size:15px;
 	}
@@ -660,7 +639,7 @@ animation:contact 1s;
 	.cart{
 		position:absolute;
 		top:9px;
-		right:19%;
+		right:20%;
 	}
 	.cart:hover{
 		opacity:0.5;
@@ -669,27 +648,29 @@ animation:contact 1s;
 	.search{
 		position:absolute;
 		top:10px;
-		right:2%;
+		right:0%;
+		width: 13%;
 	}
 	.search input[type=text]{
 		color:blue;
-		font-size:17px;
+		font-size:20px;
 		padding: auto;
 		text-align:center;
+		width: 58%;
 	}
 	
 	.search input{
-		width:10em;
-		height:32px;
+		width:26%;
+		height:55%;
 		margin: 0;
 	}
 	
 	.search button{
 		text-align: center;
-		padding:auto;
+		padding:5px;
 		color:blue;
-		margin:0;
-		height:32px;
+		margin:6px;
+		height:40%;
 		
 	}
 	
@@ -697,28 +678,28 @@ animation:contact 1s;
 	.top{
 		
 		height:4em;
-		margin:0;
-		padding:0px;
+		top: 0%;
+		right: 0%;
 		position:fixed;
 		background-color:blue;
 		color:white;
 		width:100%;
-		top:0px;
-		left:0em;
 		z-index:1;
 		
 		
 	}
 .top h1{
 	    color:white;
-		text-shadow:2px 5px 4px black;
+		text-shadow:2px 5px 4px rgb(102, 99, 99);
 		font-size:2.5em;
+		font-weight: bold;
+		text-align: center;
 	}
 	
 	body{ 
 font-family : Verdana,Helvetica,Arial,sans-serif;
 background-color:#FFFFFF;
-line-height: 125%;
+font-weight: bold;
 padding: 15px;
 margin:0;
 width:100%;}
