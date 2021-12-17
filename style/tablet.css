@@ -22,7 +22,7 @@
 	
 	.logo{
 		position:absolute;
-		left:15%;
+		left:10%;
 	}
 	.logo img{
 		width:80px;
@@ -31,16 +31,16 @@
 	.login{
 		position:absolute;
 		top:40%;
-		right:10%;
+		right:5%;
 	}
 	.login a{
 		background-color:rgb(241, 69, 1);
 		color:white;
 		padding:4px;
-		border-radius:4px;
+		border-radius:2px;
 		font-size:18px;
 		text-decoration:none;
-		box-shadow:2px 2px black;
+		box-shadow:1px 1px black;
 	}
 	.login a:link{
 		color:white;
@@ -49,7 +49,7 @@
 		color:white;
 	}
 	.login a:hover{
-		background-color:blue;
+		background-color:rgb(241, 145, 20);
 	}
 	.logout{
 		position:absolute;
@@ -492,6 +492,9 @@ animation:contact 1s;
 	.outfits{
 		animation:dress 2s linear;
 		animation-iteration-count:1;
+		display: flex;
+		flex-wrap: wrap;
+		
 	}
 	
 	@keyframes dress{
@@ -582,25 +585,23 @@ animation:contact 1s;
 	
 	.menu{
 		position:absolute;
-		top:3em;
-		left:3em;
+		top:35%;
+		left:0%;
 		border-radius:10px;
 		width:70px;
-		background-color:black;
 		height:40px;
-		padding-left:8px;
 		
 	}
 	.menu1{
 		width:40px;
 		height:6px;
-		background-color:white;
+		background-color:rgb(255, 72, 0);
 		margin:6px;
 		position:relative;
 	}
 	
 	.items{
-		background-color:white;
+		background-color:none;
 		border-radius:10px;
 		width:30px;
 		height:20px;
@@ -609,19 +610,19 @@ animation:contact 1s;
 		right:20%;
 		text-align:center;
 		padding-bottom:10px;
-		color:red;
+		color:rgb(255, 255, 255);
 		font-weight:bold;
-		font-size:20;
+		font-size:20px;
 	}
 	
 	.cart i{
-		font-size:50px;
+		font-size:45px;
 	}
 	
 	.cart{
 		position:absolute;
 		top:2em;
-		right:25%;
+		right:20%;
 	}
 	.cart:hover{
 		opacity:0.5;
@@ -642,7 +643,6 @@ animation:contact 1s;
 	
 	.search input{
 		width: 20%;
-
 		height:20px;
 		display:none;
 	}
@@ -659,23 +659,21 @@ animation:contact 1s;
 	
 	.top{
 		
-		height:120px;
+		height:100px;
 		margin:2px;
 		padding:15px;
 		position:fixed;
-		background: linear-gradient(to bottom right,rgb(10, 10, 10),rgb(188, 194, 194));
+		background: linear-gradient(to bottom right,rgb(10, 10, 10),rgb(76, 78, 78));
 		color:white;
-		width:105%;
+		width:100%;
 		top:-20px;
-		left:-1em;
-		
+		left: 0%;
 		
 	}
 .top h1{
 	    color:white;
-		text-shadow:5px 5px maroon;
 		font-size:2em;
-		font-style:italic;
+		font-weight: bold ;
 		line-height:100%;
 	}
 	

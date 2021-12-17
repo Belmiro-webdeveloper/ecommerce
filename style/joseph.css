@@ -39,8 +39,8 @@ input[type=reset]:hover{
 	}
 	.login{
 		position:absolute;
-		top:30%;
-		right:25%;
+		top:35%;
+		right:6%;
 	}
 	.login a{
 		background-color: rgb(241, 69, 1);
@@ -543,10 +543,11 @@ text-align:center;}
 		
 		
 	.men{
+		display: flex;
+		flex-direction: column;
 		position:relative;
 		top:5em;
 		text-align:center;
-	      right:-10px;
 		margin:0px -20px 1em -10px;
 		border:1px solid grey;
 	
@@ -676,35 +677,31 @@ text-align:center;}
 	
 	.menu{
 		position:absolute;
-		top:3.3em;
-		left:20px;
+		top:35%;
+		left:4%;
 		border-radius:5px;
 		width:35px;
-		background-color:black;
-		height:20px;
-		padding-left:4px;
-		
+		height:20px;		
 	}
 	.menu1{
 		width:20px;
 		height:3px;
-		background-color:white;
+		background-color:rgb(255, 72, 0);
+		;
 		margin:3px;
 		position:relative;
 	}
 	
 	.items{
-		background-color:white;
 		border-radius:5px;
 		width:25px;
 		height:17px;
 		position:absolute;
-		top:3.3em;
-		right:23px;
+		top:21%;
+		right:25%;
 		text-align:center;
-		color:red;
+		color:rgb(253, 245, 245);
 		font-weight:bold;
-		padding:0px 1px 20px 0px;
 	}
 	
 	
@@ -717,14 +714,13 @@ text-align:center;}
 	.cart{
 		position:absolute;
 		top:3.2em;
-		right:50px;
+		right:25%;
+		top: 35%;
 	}
 	
-	.cart:hover{
-		opacity:0.5;
-	}
 	
 	.search{
+		display: none;
 		position:absolute;
 		top:1em;
 		right:5%;
@@ -754,21 +750,18 @@ text-align:center;}
 	
 	.top{
 		position:fixed;
-		height:80px;
-		margin:-10px;
-		left:-5px;
-		top:-5px;
+		height:60px;
+		left:0;
+		top:0%;
 		padding:15px;
-		background: linear-gradient(to bottom right,rgb(10, 10, 10),rgb(38, 39, 39));
+		background: linear-gradient(to bottom right,rgb(10, 10, 10),rgb(60, 61, 61));
 		color:white;
-		width:110%;
+		width:100%;
 		z-index:1;
 		font-family : Verdana,Helvetica,Arial,sans-serif;}
 .top h1{
 		color:white;
-		text-shadow: 3px 3px maroon;
 		font-size:1.3em;
-		font-style:italic;
 	}
 	
 	.title{
@@ -970,8 +963,22 @@ text-align:center;
 		border-radius: 50%;
 		margin:0px -3px 0px -3px;
 	}
+	.title{
+		width: 60%;
+		top: 35%;
+		left: 13%;
+
+	}
 	.phones{
-		display:none;
+		display:block;
+		left: 20%;
+		top: 20%;
+		font-size: 18px;
+	}
+	.logo{
+		position: absolute;
+		top: 30%;
+		left: 15%;
 	}
 
 	.logout{

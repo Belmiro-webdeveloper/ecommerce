@@ -77,7 +77,7 @@ input[type=submit]:hover{
 	.login{
 		position:absolute;
 		top:13px;
-		right:26%;
+		right:35%;
 	}
 	.login a{
 		background-color:rgb(241, 69, 1);
@@ -96,7 +96,7 @@ input[type=submit]:hover{
 		color:white;
 	}
 	.login a:hover{
-		background-color:blue;
+		background-color:rgb(255, 208, 0);
 	}
 	
 	.logout{
@@ -105,7 +105,7 @@ input[type=submit]:hover{
 		left:3%;
 	}
 	.logout a{
-		background-color:red;
+		background-color:rgb(219, 131, 49);
 		color:white;
 		padding:4px;
 		border-radius:4px;
@@ -642,27 +642,28 @@ animation:contact 1s;
 		width:20px;
 		height:20px;
 		position:absolute;
-		top:0px;
-		right:20%;
+		top:1px;
+		right:25%;
 		text-align:center;
 		padding:auto;
-		color:red;
+		color:rgb(255, 145, 0);
 		font-weight:bold;
-		font-size:15px;
+		font-size:12px;
 	}
 	
 	.cart i{
 		font-size:45px;
-		color:red;
+		color:rgb(241, 69, 1);
 	}
 	
 	.cart{
 		position:absolute;
 		top:9px;
-		right:19%;
+		right:25%;
 	}
-	.cart:hover{
-		opacity:0.5;
+	.cart  i:hover{
+		color: rgb(255, 208, 0);
+        opacity: 0.8;
 	}
 	
 	.search{
@@ -723,7 +724,7 @@ width:100%;}
 .title{
 	position:absolute;
 	top:10px;
-	left:20%;
+	left:16%;
 }
 
 .useravator{

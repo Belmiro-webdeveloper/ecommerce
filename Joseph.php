@@ -49,20 +49,24 @@ item_price VARCHAR(200)
 <html>
 <head>
 <title>Demo online shoping</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" type="text/css" href="style/joseph.css">
-<link rel="stylesheet" type="text/css" href="style/desktop.css">
-<link rel="stylesheet" type="text/css" href="style/tablet.css">
-<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-dist\css\bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="font/css/font-awesome.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<meta http-equiv="refresh" content="">
 
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/nkwana.js"></script>
 <script src="bootstrap-4.0.0-dist\js\popper.min.js"></script>
 <script src="bootstrap-4.0.0-dist\js\bootstrap.min.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-dist\css\bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style/joseph.css">
+<link rel="stylesheet" type="text/css" href="style/desktop.css">
+<link rel="stylesheet" type="text/css" href="style/tablet.css">
+<link rel="stylesheet" type="text/css" href="font/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta http-equiv="refresh" content="">
+
+
 
 <noscript>Your device does not support javascript</noscript>
 
@@ -81,7 +85,7 @@ item_price VARCHAR(200)
 <div class="logo"><img src="img/logo.png" alt="logo"></div>
 <?php echo $login_btn;?>
     <div class="title">
-        <h1><span style="color: rgb(241, 69, 1);">DEMO &nbsp</span><span class="phones" style="color: rgb(241, 69, 1);">e-STORE </span> <span class="desktop"style="color: rgb(241, 69, 1);"S>e-Store</span> </h1>
+        <h1><span class="phones" style="color: rgb(241, 69, 1);">DEMO &nbsp e-STORE </span><span class="phones" style="color: rgb(241, 69, 1);"></span> <span class="desktop"style="color: rgb(241, 69, 1);"S></span> </h1>
     </div>
 	
     <div class="search">
