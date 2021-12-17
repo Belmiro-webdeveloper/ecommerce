@@ -34,7 +34,7 @@
 		right:10%;
 	}
 	.login a{
-		background-color:red;
+		background-color:rgb(241, 69, 1);
 		color:white;
 		padding:4px;
 		border-radius:4px;
@@ -378,7 +378,6 @@ animation:modal 1s;
 	
 	
 	.contact{
-background-color:#99ffff;
 border-radius:15px;
 position:absolute;
 top:108em;
@@ -514,11 +513,9 @@ animation:contact 1s;
 	}
 	
     .men h2{
-		color:blue;
-		font-style:italic;
+		color: white;
 		font-size:2.1em;
 		font-size:bold;
-		width:45em;
 		margin:auto;
 	}
 	
@@ -530,13 +527,12 @@ animation:contact 1s;
 	.cancel-manu{
 		position:absolute;
 		top:0px;
-		right:0px;
-		color:red;
+		right:3px;
+		color: rgb(241, 69, 1);
 		font-weight:bold;
-		font-size:25px;
+		font-size:29px;
 		float:right;
-		background-color:white;
-		padding:2px;
+		background-color:none;
 		z-index:1;
 	}
 	
@@ -620,19 +616,19 @@ animation:contact 1s;
 	
 	.cart i{
 		font-size:50px;
-		color:red;
 	}
 	
 	.cart{
 		position:absolute;
 		top:2em;
-		right:20%;
+		right:25%;
 	}
 	.cart:hover{
 		opacity:0.5;
 	}
 	
 	.search{
+		display: none;
 		position:absolute;
 		top:1em;
 		right:1.5%;
@@ -645,7 +641,8 @@ animation:contact 1s;
 	}
 	
 	.search input{
-		width:80px;
+		width: 20%;
+
 		height:20px;
 		display:none;
 	}
@@ -666,7 +663,7 @@ animation:contact 1s;
 		margin:2px;
 		padding:15px;
 		position:fixed;
-		background-color:blue;
+		background: linear-gradient(to bottom right,rgb(10, 10, 10),rgb(188, 194, 194));
 		color:white;
 		width:105%;
 		top:-20px;
@@ -684,8 +681,6 @@ animation:contact 1s;
 	
 	body{ 
 font-family : Verdana,Helvetica,Arial,sans-serif;
-background-color:#FFFFFF;
-line-height: 125%;
 padding: 15px;
 margin:0;
 width:100%;}

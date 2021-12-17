@@ -75,25 +75,25 @@ item_price VARCHAR(200)
 
 </head>
 
-<body >
+<body class="bodyy" style="background:black;">
 <div class="top" >
 <div id = "add_cart_results"></div>
 <div class="logo"><img src="img/logo.png" alt="logo"></div>
 <?php echo $login_btn;?>
     <div class="title">
-        <h1>DEMO<span class="phones">, SHOPPING </span> <span class="desktop">e-Store</span> </h1>
+        <h1><span style="color: rgb(241, 69, 1);">DEMO &nbsp</span><span class="phones" style="color: rgb(241, 69, 1);">e-STORE </span> <span class="desktop"style="color: rgb(241, 69, 1);"S>e-Store</span> </h1>
     </div>
 	
     <div class="search">
-        <input type="text" id="search"  placeholder="search...">
+        <input type="text" id="search"  placeholder="search..." style="color: rgb(241, 69, 1); border-radius:4px;">
         <button onclick="seach()">
-		    <i class="fa fa-search"></i>
+		    <i class="fa fa-search" style="color: rgb(241, 69, 1); background:none;"></i>
 		</button>
     </div>
     
-	<div class="cart">
+	<div class="cart">                                                                                                                                                                                                                                                                                                                                                    
         <a href="card.php">
-		    <i class="fa fa-shopping-cart"></i>
+		    <i class="fa fa-shopping-cart" style="color: rgb(241, 69, 1);"></i>
 		</a>
     </div>
     <div class="items" id="items_stock"> 
@@ -111,7 +111,7 @@ item_price VARCHAR(200)
     </div>
 
     <div class="menu">
-        <div class="menu2">
+        <div class="menu2"style="color: rgb(241, 69, 1);">
             <div class="menu1"></div>
             <div class="menu1"></div>
             <div class="menu1"></div>
