@@ -49,24 +49,20 @@ item_price VARCHAR(200)
 <html>
 <head>
 <title>Demo online shoping</title>
-
-<script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/nkwana.js"></script>
-<script src="bootstrap-4.0.0-dist\js\popper.min.js"></script>
-<script src="bootstrap-4.0.0-dist\js\bootstrap.min.js"></script>
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-dist\css\bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="style/joseph.css">
 <link rel="stylesheet" type="text/css" href="style/desktop.css">
 <link rel="stylesheet" type="text/css" href="style/tablet.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-dist\css\bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="font/css/font-awesome.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <meta http-equiv="refresh" content="">
 
-
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/nkwana.js"></script>
+<script src="bootstrap-4.0.0-dist\js\popper.min.js"></script>
+<script src="bootstrap-4.0.0-dist\js\bootstrap.min.js"></script>
 
 <noscript>Your device does not support javascript</noscript>
 
@@ -79,25 +75,25 @@ item_price VARCHAR(200)
 
 </head>
 
-<body class="bodyy" style="background:black;">
+<body >
 <div class="top" >
 <div id = "add_cart_results"></div>
 <div class="logo"><img src="img/logo.png" alt="logo"></div>
 <?php echo $login_btn;?>
     <div class="title">
-        <h1><span class="phones" style="color: rgb(241, 69, 1);">DEMO &nbsp e-STORE </span><span class="phones" style="color: rgb(241, 69, 1);"></span> <span class="desktop"style="color: rgb(241, 69, 1);"S></span> </h1>
+        <h1>DEMO<span class="phones">, SHOPPING </span> <span class="desktop">e-Store</span> </h1>
     </div>
 	
     <div class="search">
-        <input type="text" id="search"  placeholder="search..." style="color: rgb(241, 69, 1); border-radius:4px;">
+        <input type="text" id="search"  placeholder="search...">
         <button onclick="seach()">
-		    <i class="fa fa-search" style="color: rgb(241, 69, 1); background:none;"></i>
+		    <i class="fa fa-search"></i>
 		</button>
     </div>
     
-	<div class="cart">                                                                                                                                                                                                                                                                                                                                                    
+	<div class="cart">
         <a href="card.php">
-		    <i class="fa fa-shopping-cart" style="color: rgb(241, 69, 1);"></i>
+		    <i class="fa fa-shopping-cart"></i>
 		</a>
     </div>
     <div class="items" id="items_stock"> 
@@ -115,7 +111,7 @@ item_price VARCHAR(200)
     </div>
 
     <div class="menu">
-        <div class="menu2"style="color: rgb(241, 69, 1);">
+        <div class="menu2">
             <div class="menu1"></div>
             <div class="menu1"></div>
             <div class="menu1"></div>

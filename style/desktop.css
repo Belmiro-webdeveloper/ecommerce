@@ -77,10 +77,10 @@ input[type=submit]:hover{
 	.login{
 		position:absolute;
 		top:13px;
-		right:35%;
+		right:26%;
 	}
 	.login a{
-		background-color:rgb(241, 69, 1);
+		background-color:red;
 		color:white;
 		padding:6px;
 		border-radius:4px;
@@ -96,7 +96,7 @@ input[type=submit]:hover{
 		color:white;
 	}
 	.login a:hover{
-		background-color:rgb(255, 208, 0);
+		background-color:blue;
 	}
 	
 	.logout{
@@ -105,7 +105,7 @@ input[type=submit]:hover{
 		left:3%;
 	}
 	.logout a{
-		background-color:rgb(219, 131, 49);
+		background-color:red;
 		color:white;
 		padding:4px;
 		border-radius:4px;
@@ -369,7 +369,8 @@ top:-2em;
 
 	
 	
-#contact{
+	.contact{
+background-color:#99ffff;
 position: relative;
 left:-1em;
 bottom: -12em;
@@ -396,19 +397,19 @@ animation:contact 1s;
 
 #contact1{ text-align:center;}
 
-#about p{text-align:center; color: rgb(248, 238, 238);
+#about p{text-align:center; color: black;
  font-size:14px;}
-#contact1 p{ color:rgb(243, 234, 234);font-size:14px;}
+#contact1 p{ color:black;font-size:14px;}
 
-#about p a{font-size:9px; color:rgb(0, 162, 255);}
+#about p a{font-size:9px; color:red;}
 
 
-.contact3{color:rgb(0, 153, 255);font-weight:bold;font-size:16px; padding: 6px;}
+.contact3{color:red;font-weight:bold;font-size:16px; padding: 6px;}
 
-.about1{color:rgb(0, 140, 255);font-weight:bold; font-size:16px; padding: 6px;}
+.about1{color:red;font-weight:bold; font-size:16px; padding: 6px;}
 
       .women h2{
-		color:rgb(0, 153, 255);
+		color:blue;
 		font-style:italic;
 		font-size:2.1em;
 		font-size:bold;
@@ -642,28 +643,27 @@ animation:contact 1s;
 		width:20px;
 		height:20px;
 		position:absolute;
-		top:1px;
-		right:25%;
+		top:0px;
+		right:20%;
 		text-align:center;
 		padding:auto;
-		color:rgb(255, 145, 0);
+		color:red;
 		font-weight:bold;
-		font-size:12px;
+		font-size:15px;
 	}
 	
 	.cart i{
 		font-size:45px;
-		color:rgb(241, 69, 1);
+		color:red;
 	}
 	
 	.cart{
 		position:absolute;
 		top:9px;
-		right:25%;
+		right:19%;
 	}
-	.cart  i:hover{
-		color: rgb(255, 208, 0);
-        opacity: 0.8;
+	.cart:hover{
+		opacity:0.5;
 	}
 	
 	.search{
@@ -700,7 +700,7 @@ animation:contact 1s;
 		margin:0;
 		padding:0px;
 		position:fixed;
-		background: linear-gradient(to bottom right,rgb(10, 10, 10),rgb(46, 48, 48));
+		background-color:blue;
 		color:white;
 		width:100%;
 		top:0px;
@@ -717,6 +717,8 @@ animation:contact 1s;
 	
 	body{ 
 font-family : Verdana,Helvetica,Arial,sans-serif;
+background-color:#FFFFFF;
+line-height: 125%;
 padding: 15px;
 margin:0;
 width:100%;}
@@ -724,7 +726,7 @@ width:100%;}
 .title{
 	position:absolute;
 	top:10px;
-	left:16%;
+	left:20%;
 }
 
 .useravator{
