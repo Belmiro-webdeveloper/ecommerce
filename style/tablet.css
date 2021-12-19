@@ -496,7 +496,6 @@ animation:contact 1s;
 		height: 60%;
 		width:90%;
 		background-color: white;
-		overflow: scroll;
 		-ms-overflow-style:none;  /*hidding scrollbars for IE and EDGE*/
         scrollbar-width:none;  /*hidding scrollbar for firefox*/
 	}

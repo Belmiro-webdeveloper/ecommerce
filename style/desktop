@@ -379,7 +379,7 @@
 	.men h2{
 		color:blue;
 		font-weight: bold;
-		font-size:2.1em;
+		font-size:2.7em;
 		font-size:bold;
 		width:45em;
 		margin:auto;

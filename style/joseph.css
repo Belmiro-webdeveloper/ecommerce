@@ -401,7 +401,7 @@ animation:modal 1s;
 background:linear-gradient(to bottom left , rgb(19, 19, 160),rgb(26, 26, 163));
 position: relative;
 top:8em;
-padding: 2px;
+padding: 7px;
 width:100%;
 margin:0;
 animation:contact 1s;
@@ -430,13 +430,16 @@ animation:contact 1s;
 #contact1{ text-align:center;}
 
 #about p{text-align:center; color: rgb(252, 246, 246);
- font-size:19px;}
-#contact1 p{ color:rgb(255, 255, 255);font-size:9px;}
+ font-size:15px;}
+#contact1 p{ color:rgb(255, 255, 255);font-size:13px;}
 
 #about p a{font-size:19px; color:rgb(255, 255, 255);}
 
 
-.contact3{color:rgb(245, 239, 239);;font-size:20px; padding: 6spx;}
+.contact3{
+	color:rgb(245, 239, 239);
+	font-size:25px;
+	 padding: 6px;}
 
 .about1{color:rgb(255, 255, 255);font-weight:bold; font-size:16px; padding: 3px;}
 
@@ -563,7 +566,6 @@ text-align:center;}
 		left: 10%;
 		width:85%;
 		background-color: white;
-		overflow: scroll;
 		-ms-overflow-style:none;  /*hidding scrollbars for IE and EDGE*/
         scrollbar-width:none;  /*hidding scrollbar for firefox*/
 	}
