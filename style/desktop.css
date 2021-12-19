@@ -322,6 +322,7 @@ top:-2em;
 	
 	
 	.freed{
+		display: none;
 		width:300px;
 		border-radius:3px;
 		background-color:green;
@@ -336,26 +337,28 @@ top:-2em;
 		font-size:18px;
 		z-index:0.5;
 	}
-	@keyframes freed{
-		0%{ color:white;}
-		50%{ display:none;}
-		100%{background-color:red;}
-	}
 	
 	.offer{
-		width:100px;
+		width:150px;
 		border-radius:50%;
-		background-color:green;
+		background-color:rgb(0, 113, 128);
 		color:white;
 		animation:offer 5s linear infinite;
 		position:absolute;
-		top:28em;
+		top:30em;
 		right:5em;
-		padding:15px;
-		height:100px;
+		padding:28px;
+		height:150px;
 		text-align:center;
+		text-justify: center;
 		font-size:16px;
-		z-index:0.5;
+		z-index:999;
+	}
+	
+	@keyframes offer{
+		0%{ width:100px; height:100px;}
+		50%{ width:130px; height:130px; font-size:22px;}
+		100%{background-color:rgb(4, 0, 255); width:80px; height:80px; font-size:14px; }
 	}
 	
 	@keyframes offer{
@@ -366,9 +369,34 @@ top:-2em;
 	
 	
 	
-	
+
+	.contact{
+		background: linear-gradient(to bottom left , rgb(10, 10, 139),rgb(17, 17, 197));
+		border-radius:5px;
+		position:absolute;
+		top:115em;
+		padding: 3px;
+		width:99%;
+		animation:contact 1s;
+		-webkit-animation:contact 1s;}
+			
 
 	
+#contact1{ text-align:center;}
+
+#about p{text-align:center; color: rgb(255, 255, 255);
+ font-size:14px;}
+#contact1 p{ color:rgb(255, 255, 255);font-size:20px;}
+
+#about p a{font-size:39px; color:rgb(255, 255, 255);}
+
+
+.contact3{color:rgb(255, 255, 255);font-weight:bold;font-size:38px; padding: 6px;border-radius: 4px;}
+
+.about1{color:rgb(255, 255, 255);font-weight:bold; font-size:20px; padding: 6px;}
+.about>p i{
+	font-size: 1.5em;
+}
 
 @keyframes contact{ from{ 
 	                          transform:scale(0.3);}
@@ -477,7 +505,7 @@ top:-2em;
 		color:black;
 	}
 	.dress img{
-		width:180px;
+		width:210px;
 		height:auto;
 	}
 	.outfits button{
@@ -509,6 +537,7 @@ top:-2em;
 		animation-iteration-count:1;
 		display:flex;
 		flex-wrap:wrap;
+		margin: 8px;
 		
 	}
 	
@@ -529,7 +558,7 @@ top:-2em;
 	
 	.men h2{
 		color:blue;
-		font-style:italic;
+	font-weight: bold;
 		font-size:2.1em;
 		font-size:bold;
 		width:20%;

@@ -263,6 +263,7 @@ animation:modal 1s;
 	
 	
 	.freed{
+		display: none;
 		width:300px;
 		border-radius:3px;
 		background-color:green;
@@ -284,25 +285,26 @@ animation:modal 1s;
 	}
 	
 	.offer{
-		width:100px;
+		width:150px;
 		border-radius:50%;
-		background-color:green;
+		background-color:rgb(0, 113, 128);
 		color:white;
 		animation:offer 5s linear infinite;
 		position:absolute;
-		top:28em;
+		top:30em;
 		right:5em;
-		padding:15px;
-		height:100px;
+		padding:28px;
+		height:150px;
 		text-align:center;
+		text-justify: center;
 		font-size:16px;
-		z-index:-1;
+		z-index:999;
 	}
 	
 	@keyframes offer{
 		0%{ width:100px; height:100px;}
 		50%{ width:130px; height:130px; font-size:22px;}
-		100%{background-color:red; width:80px; height:80px; font-size:14px; }
+		100%{background-color:rgb(4, 0, 255); width:80px; height:80px; font-size:14px; }
 	}
 	form{
 		width:100%;
@@ -380,11 +382,11 @@ animation:modal 1s;
 	
 	
 	.contact{
-background:linear-gradient(to bottom ,blue,rgb(198, 198, 216));
+background:linear-gradient(to bottom ,rgb(10, 10, 199),rgb(24, 24, 139));
 border-radius:5px;
 position:absolute;
-top:355em;
-width:95%;
+top:402em;
+width:99%;
 animation:contact 1s;
 -webkit-animation:contact 1s;}
 
@@ -408,19 +410,18 @@ animation:contact 1s;
 #contact1{ text-align:center;}
 
 #about p{text-align:center; color: rgb(255, 255, 255);
- font-size:14px;}
-#contact1 p{ color:rgb(255, 255, 255);font-size:14px;}
+ font-size:18x;}
+#contact1 p{ color:rgb(255, 255, 255);font-size:15px;}
 
-#about p a{font-size:9px; color:rgb(255, 255, 255);}
+#about p a{font-size:17px; color:rgb(255, 255, 255);}
 
 
-.contact3{color:rgb(245, 230, 230);font-weight:bold;font-size:16px; padding: 6px;}
+.contact3{color:rgb(245, 230, 230);font-weight:bold;font-size:23px; padding: 6px;}
 
-.about1{color:rgb(255, 255, 255);font-weight:bold; font-size:16px; padding: 6px;}
+.about1{color:rgb(255, 255, 255);font-weight:bold; font-size:20px; padding: 6px;}
 
       .women h2{
 		color:blue;
-		font-style:italic;
 		font-size:2.1em;
 		font-size:bold;
 		width:45em;
@@ -467,7 +468,7 @@ animation:contact 1s;
 		height:auto;
 		position:relative;
 		display:flex;
-	flex-direction: column;
+	    flex-direction: column;
 			
 		}
 		
@@ -481,7 +482,7 @@ animation:contact 1s;
 		position:relative;
 		top:5em;
 		text-align:center;
-		margin:6px;
+		margin:8px;
 		left: 0%;
 		width: 98%;
 		z-index: 1;
@@ -491,8 +492,8 @@ animation:contact 1s;
 		border:1px solid rgb(20, 229, 236);
 		border-radius:5px;
 		padding:4px;
-		margin: 4px;
-		left: 7%;
+		margin: 8px;
+		height: 60%;
 		width:90%;
 		background-color: white;
 		overflow: scroll;
@@ -530,14 +531,14 @@ animation:contact 1s;
 		color:black;
 	}
 	.dress img{
-		width:100%;
-		height:auto;
+		width:90%;
+		height:80%;
 		position: relative;
 	}
 	.outfits button{
 		background-color:red;
 		color:white;
-		border-radius:2px;
+		border-radius:4px;
 	}
 	.outfits button:hover{
 		background-color:blue;
@@ -550,7 +551,7 @@ animation:contact 1s;
 		position:absolute;
 		text-align: center;
 		top: -6px;
-		left: -2%;
+		left: -1%;
 	}
 	
 	
@@ -713,8 +714,7 @@ animation:contact 1s;
 	body{ 
 font-family : Verdana,Helvetica,Arial,sans-serif;
 background-color:#FFFFFF;
-line-height: 125%;
-padding: 15px;
+padding: 8px;
 margin:0;
 width:100%;}
 
