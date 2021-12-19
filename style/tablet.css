@@ -22,13 +22,15 @@
 	
 	.logo{
 		position:absolute;
-		left:15%;
+		left:12%;
+		top: 2%;
 	}
 	.logo img{
-		width:80px;
-		height:80px;
+		width:70px;
+		height:70px;
 	}
 	.login{
+		display: none;
 		position:absolute;
 		top:40%;
 		right:10%;
@@ -378,10 +380,10 @@ animation:modal 1s;
 	
 	
 	.contact{
-background-color:#99ffff;
-border-radius:15px;
+background:linear-gradient(to bottom ,blue,rgb(198, 198, 216));
+border-radius:5px;
 position:absolute;
-top:108em;
+top:355em;
 width:95%;
 animation:contact 1s;
 -webkit-animation:contact 1s;}
@@ -405,16 +407,16 @@ animation:contact 1s;
 
 #contact1{ text-align:center;}
 
-#about p{text-align:center; color: black;
+#about p{text-align:center; color: rgb(255, 255, 255);
  font-size:14px;}
-#contact1 p{ color:black;font-size:14px;}
+#contact1 p{ color:rgb(255, 255, 255);font-size:14px;}
 
-#about p a{font-size:9px; color:red;}
+#about p a{font-size:9px; color:rgb(255, 255, 255);}
 
 
-.contact3{color:red;font-weight:bold;font-size:16px; padding: 6px;}
+.contact3{color:rgb(245, 230, 230);font-weight:bold;font-size:16px; padding: 6px;}
 
-.about1{color:red;font-weight:bold; font-size:16px; padding: 6px;}
+.about1{color:rgb(255, 255, 255);font-weight:bold; font-size:16px; padding: 6px;}
 
       .women h2{
 		color:blue;
@@ -449,77 +451,106 @@ animation:contact 1s;
 	}
 	
 	
-	.men_outfits{
+	s{
 		border-radius:10px;
-		margin:0;
+		margin:5px;
+		height:auto;
 		padding-left:5px;
+		-ms-overflow-style:none;  /*hidding scrollbars for IE and EDGE*/
+        scrollbar-width:none;  /*hidding scrollbar for firefox*/
+        width:100%;
+		overflow:scroll;
 		}
+		.outfits{width:100%;
+		animation:dress 1s linear;
+		animation-iteration-count:1;
+		height:auto;
+		position:relative;
+		display:flex;
+	flex-direction: column;
+			
+		}
+		
+	.men_outfits::-webkit-scrollbar {
+	display:none;     /*hidding scrollbars for chrome safari and Opera*/
+	}
 	
+		
+		
 	.men{
-		z-index:-1;
-		position:absolute;
-		top:12em;
+		position:relative;
+		top:5em;
 		text-align:center;
+		margin:6px;
+		left: 0%;
+		width: 98%;
+		z-index: 1;
+	
 	}
 	.dress{
-		float:left;
-		margin-left:20px;
-		border:3px solid black;
-		padding:10px;
-		border-radius:10px;
-		margin-top:4em;
-		width:20em;
+		border:1px solid rgb(20, 229, 236);
+		border-radius:5px;
+		padding:4px;
+		margin: 4px;
+		left: 7%;
+		width:90%;
+		background-color: white;
+		overflow: scroll;
+		-ms-overflow-style:none;  /*hidding scrollbars for IE and EDGE*/
+        scrollbar-width:none;  /*hidding scrollbar for firefox*/
 	}
+	.dress::-webkit-scrollbar {
+		display:none;     /*hidding scrollbars for chrome safari and Opera*/
+		}
+		
+.dress button{
+	
+	font-size:12px;
+	
+}
+	
+	@keyframes dress{
+		from{
+		/*position:relative;
+		left:100%;
+		transform:rotate(20deg);*/
+		transform:scale(0)}
+		
+		to{
+		/*position:relative;
+		left:-100%;
+		transform:rotate(5deg);*/
+		transform:scale(1)}
+		}
+	
 	
 	div.name{
 		font-weight:bold;
-		font-size:15px;
+		font-size:11px;
 		color:black;
 	}
 	.dress img{
-		width:180px;
+		width:100%;
 		height:auto;
+		position: relative;
 	}
 	.outfits button{
 		background-color:red;
 		color:white;
-		border-radius:4px;
+		border-radius:2px;
 	}
 	.outfits button:hover{
 		background-color:blue;
 	}
 	
-	
-	.outfits{
-		animation:dress 2s linear;
-		animation-iteration-count:1;
-	}
-	
-	@keyframes dress{
-		from{
-		position:relative;
-		left:100%;
-		transform:rotate(20deg);
-		transform:scale(0)}
-		
-		to{
-		position:relative;
-		left:-100%;
-		transform:rotate(5deg);
-		transform:scale(1)}
-		}
-	
-	.dress input{
-		width:12em;
-	}
-	
-    .men h2{
+	.men h2{
 		color:blue;
-		font-style:italic;
-		font-size:2.1em;
-		font-size:bold;
-		width:45em;
-		margin:auto;
+		font-size:2em;
+		font-weight:bold;
+		position:absolute;
+		text-align: center;
+		top: -6px;
+		left: -2%;
 	}
 	
 	
@@ -586,11 +617,10 @@ animation:contact 1s;
 	
 	.menu{
 		position:absolute;
-		top:3em;
-		left:3em;
+		top:16%;
+		left:0%;
 		border-radius:10px;
 		width:70px;
-		background-color:black;
 		height:40px;
 		padding-left:8px;
 		
@@ -604,82 +634,80 @@ animation:contact 1s;
 	}
 	
 	.items{
-		background-color:white;
-		border-radius:10px;
 		width:30px;
 		height:20px;
 		position:absolute;
-		top:1em;
-		right:20%;
+		top:5%;
+		right:25%;
 		text-align:center;
-		padding-bottom:10px;
-		color:red;
+		color:rgb(250, 244, 244);
 		font-weight:bold;
 		font-size:20;
 	}
 	
 	.cart i{
-		font-size:50px;
+		font-size:40px;
 		color:red;
 	}
 	
 	.cart{
 		position:absolute;
-		top:2em;
-		right:20%;
+		top:1.5em;
+		right:25%;
+		top: 19%;
 	}
 	.cart:hover{
 		opacity:0.5;
 	}
-	
 	.search{
 		position:absolute;
-		top:1em;
-		right:1.5%;
+		top:10px;
+		right:0%;
+		width: 20%;
 	}
 	.search input[type=text]{
 		color:blue;
-		font-size:12px;
-		padding: 8px 5px;
+		font-size:20px;
+		padding: auto;
 		text-align:center;
+		width: 58%;
 	}
 	
 	.search input{
-		width:80px;
-		height:20px;
-		display:none;
+		width:26%;
+		height:55%;
+		margin: 0;
 	}
 	
 	.search button{
-		float:right;
-		padding:8px;
+		text-align: center;
+		padding:5px;
 		color:blue;
-		margin-right:12px;
-		height:40px;
-		
+		margin:6px;
+		height:40%;
 	}
 	
 	
 	.top{
 		
-		height:120px;
+		height:70px;
 		margin:2px;
-		padding:15px;
 		position:fixed;
 		background-color:blue;
 		color:white;
-		width:105%;
-		top:-20px;
-		left:-1em;
+		width:100%;
+		top:0%;
+		left:0%;
+		z-index: 999;
 		
 		
 	}
 .top h1{
 	    color:white;
-		text-shadow:5px 5px maroon;
-		font-size:2em;
-		font-style:italic;
-		line-height:100%;
+		text-shadow:1px 1px rgb(95, 94, 94);
+		font-size: 1.9em;
+		font-weight: bold;
+		bottom:6%;
 	}
 	
 	body{ 
@@ -692,8 +720,8 @@ width:100%;}
 
 .title{
 	position:absolute;
-	top:40%;
-	left:30%;
+	top:20%;
+	left:25%;
 }
 .title1{
 	position:absolute;
