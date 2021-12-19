@@ -166,25 +166,26 @@
 	}
 	
 	.offer{
-		width:100px;
+		width:150px;
 		border-radius:50%;
-		background-color:green;
+		background-color:rgb(0, 113, 128);
 		color:white;
 		animation:offer 5s linear infinite;
 		position:absolute;
-		top:28em;
+		top:30em;
 		right:5em;
-		padding:15px;
-		height:100px;
+		padding:28px;
+		height:150px;
 		text-align:center;
+		text-justify: center;
 		font-size:16px;
-		z-index:-1;
+		z-index:999;
 	}
 	
 	@keyframes offer{
 		0%{ width:100px; height:100px;}
 		50%{ width:130px; height:130px; font-size:22px;}
-		100%{background-color:red; width:80px; height:80px; font-size:14px; }
+		100%{background-color:rgb(4, 0, 255); width:80px; height:80px; font-size:14px; }
 	}
 	form{
 		width:100%;
@@ -261,15 +262,6 @@
 	}
 	
 	
-	.contact{
-background-color:#99ffff;
-border-radius:15px;
-position:absolute;
-top:500em;
-width:95%;
-animation:contact 1s;
--webkit-animation:contact 1s;}
-
 @keyframes contact{ from{ 
 	                          transform:scale(0.3);}
 							  
@@ -286,19 +278,6 @@ animation:contact 1s;
 	                          transform:scale(1); }
  }
 							  
-
-#contact1{ text-align:center;}
-
-#about p{text-align:center; color: black;
- font-size:14px;}
-#contact1 p{ color:black;font-size:14px;}
-
-#about p a{font-size:9px; color:red;}
-
-
-.contact3{color:red;font-weight:bold;font-size:16px; padding: 6px;}
-
-.about1{color:red;font-weight:bold; font-size:16px; padding: 6px;}
 
       .women h2{
 		color:blue;
@@ -361,7 +340,7 @@ animation:contact 1s;
 		color:black;
 	}
 	.dress img{
-		width:180px;
+		width:210px;
 		height:auto;
 	}
 	.outfits button{
@@ -399,8 +378,8 @@ animation:contact 1s;
 	
 	.men h2{
 		color:blue;
-		font-style:italic;
-		font-size:2.1em;
+		font-weight: bold;
+		font-size:2.7em;
 		font-size:bold;
 		width:45em;
 		margin:auto;

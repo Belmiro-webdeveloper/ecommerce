@@ -274,6 +274,7 @@ animation:modal 1s;
 	
 	
 .freed{
+		display: none;
 		width:200px;
 		border-radius:3px;
 		background-color:green;
@@ -281,11 +282,12 @@ animation:modal 1s;
 		animation:freed 0.5s linear infinite;
 		-webkit-animation:freed 0.5s linear infinite;
 		position:absolute;
-		top:32em;
+		top:50em;
 		left:2em;
 		padding:5px;
 		text-align:center;
 		font-size:14px;
+		z-index: 2;
 }
 
 @keyframes freed{
@@ -294,26 +296,28 @@ animation:modal 1s;
 		100%{background-color:red;}
 	}
 	
-	
-.offer{
-		width:50px;
+
+	.offer{
+		width:150px;
 		border-radius:50%;
-		background-color:green;
+		background-color:rgb(0, 113, 128);
 		color:white;
 		animation:offer 5s linear infinite;
 		position:absolute;
-		top:32em;
+		top:30em;
 		right:5em;
-		padding:10px;
-		height:50px;
+		padding:28px;
+		height:150px;
 		text-align:center;
-		font-size:12px;
+		text-justify: center;
+		font-size:16px;
+		z-index:999;
 	}
 	
 	@keyframes offer{
-		0%{ width:50px; height:50px;}
-		50%{ width:70px; height:70px; font-size:14px;}
-		100%{background-color:red; width:80px; height:80px; font-size:16px; }
+		0%{ width:100px; height:100px;}
+		50%{ width:130px; height:130px; font-size:22px;}
+		100%{background-color:rgb(4, 0, 255); width:80px; height:80px; font-size:14px; }
 	}
 	form{
 		width:100%;
@@ -394,9 +398,10 @@ animation:modal 1s;
 	padding: 0px;}
 	
 	.contact{
-background:linear-gradient(to bottom left , rgb(19, 19, 160),rgb(95, 95, 214));
+background:linear-gradient(to bottom left , rgb(19, 19, 160),rgb(26, 26, 163));
 position: relative;
 top:8em;
+padding: 7px;
 width:100%;
 margin:0;
 animation:contact 1s;
@@ -425,15 +430,18 @@ animation:contact 1s;
 #contact1{ text-align:center;}
 
 #about p{text-align:center; color: rgb(252, 246, 246);
- font-size:9px;}
-#contact1 p{ color:rgb(255, 255, 255);font-size:9px;}
+ font-size:15px;}
+#contact1 p{ color:rgb(255, 255, 255);font-size:13px;}
 
-#about p a{font-size:9px; color:rgb(255, 255, 255);}
+#about p a{font-size:19px; color:rgb(255, 255, 255);}
 
 
-.contact3{color:rgb(245, 239, 239);font-weight:bold;font-size:12px; padding: 3px;}
+.contact3{
+	color:rgb(245, 239, 239);
+	font-size:25px;
+	 padding: 6px;}
 
-.about1{color:rgb(255, 255, 255);font-weight:bold; font-size:12px; padding: 3px;}
+.about1{color:rgb(255, 255, 255);font-weight:bold; font-size:16px; padding: 3px;}
 
 #about HR{
            width: 30%;
@@ -517,12 +525,12 @@ text-align:center;}
 	
 .men_outfits{
 		border-radius:10px;
-		margin:5px;
+		margin:18px;
 		height:auto;
 		padding-left:5px;
 		-ms-overflow-style:none;  /*hidding scrollbars for IE and EDGE*/
         scrollbar-width:none;  /*hidding scrollbar for firefox*/
-        width:100%;
+        width:95%;
 		overflow:scroll;
 		}
 		.outfits{width:100%;
@@ -555,10 +563,9 @@ text-align:center;}
 		border-radius:5px;
 		padding:4px;
 		margin: 4px;
-		left: 7%;
-		width:90%;
+		left: 10%;
+		width:85%;
 		background-color: white;
-		overflow: scroll;
 		-ms-overflow-style:none;  /*hidding scrollbars for IE and EDGE*/
         scrollbar-width:none;  /*hidding scrollbar for firefox*/
 	}
@@ -612,8 +619,8 @@ text-align:center;}
 		font-weight:bold;
 		position:absolute;
 		text-align: center;
-		top: -6px;
-		left: -2%;
+		top: -23px;
+		left: 1%;
 	}
 	.dropdown_content1{
 		position:relative;
@@ -763,10 +770,10 @@ text-align:center;}
 		background-color:blue;
 		color:white;
 		width:100%;
-		top:-2%;
+		top:0%;
 		left:0%;
 		right: 0;
-		z-index: 999;
+		z-index: 1001;
 		
 	}
 .top h1{
@@ -780,8 +787,7 @@ text-align:center;}
 	body{ 
 font-family : Verdana,Helvetica,Arial,sans-serif;
 background-color:#FFFFFF;
-line-height: 125%;
-padding: 15px;
+padding: 0px;
 margin:0;
 width:100%;}
 
@@ -924,8 +930,7 @@ a:active{
 	body{ 
 font-family : Verdana,Helvetica,Arial,sans-serif;
 background-color:#FFFFFF;
-line-height: 125%;
-padding: 15px;
+padding: 0px;
 margin:0;
 width:100%;
 text-align:center;

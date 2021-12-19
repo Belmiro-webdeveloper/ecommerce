@@ -228,14 +228,14 @@ for( $j=2; $j<$int1; $j++){
 </div>
 
 
-<div id="about">
-<p><span class="about1">CONTACT INFORMATION</span></p>
+<div id="about" style="background:linear-gradient(to bottom ,black,blue);">
+<p><span class="about1"><u>CONTACT INFORMATION</u></span></p>
 
-   <p><i class="fa fa-phone" style="font-size:12px;"></i> <strong>Phone</strong>: (+27) 66 021 3188 </p>
+   <p><i class="fa fa-phone" style="font-size:20px;"></i> <strong>Phone</strong>: (+27) 66 021 3188 </p>
 
-   <p><i class="fa fa-whatsapp" style="font-size:12px; color:green"></i> <strong>WhatsApp</strong>: (+27) 66 021 3188 </p>
+   <p><i class="fa fa-whatsapp" style="font-size:20px; color:white"></i> <strong>WhatsApp</strong>: (+27) 66 021 3188 </p>
     
-   <p><i class="fa fa-facebook" style="font-size:12px; color:blue;"></i> <strong>Facebook</strong>: <span clss="about1">Joseph Nkwana</span> </p>
+   <p><i class="fa fa-facebook" style="font-size:20px; color:white;"></i> <strong>Facebook</strong>: <span clss="about1">Joseph Nkwana</span> </p>
 
     
  
