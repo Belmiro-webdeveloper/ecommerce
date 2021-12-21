@@ -1,6 +1,7 @@
 <?php
 require_once "functions.php";
 require_once "config_mogolo.php";
+$conn1 = $conn;
 
 $user=$login_avator=$login_btn="";
 session_start();
@@ -81,7 +82,7 @@ item_price VARCHAR(200)
 <div class="logo"><img src="img/logo.png" alt="logo"></div>
 <?php echo $login_btn;?>
     <div class="title">
-        <h1>DEMO SHOPPING  </h1>
+        <h1>DEMO<span class="phones">, SHOPPING </span> <span class="desktop">e-Store</span> </h1>
     </div>
 	
     <div class="search">
@@ -164,7 +165,6 @@ $stock[$j] = $paper[$i];
 for( $i=0; $i<sizeof($stock); $i++){
     
     echo"<div class='men'>
-    <div class='men_outfits' >
     <h2>".$stock[$i]." outfits</h2>
     <div class='outfits'>
     ";
@@ -185,7 +185,7 @@ for( $j=2; $j<$int1; $j++){
     <div class='price'>R". $dress_p."</div>
     <div class='name'>". $dress_n."</div>
     <img alt='$file_item_number' src='stock/$stock[$i]/$file_item_number.jpeg' >
-    <button class='price_button' onclick=$add_botton >Add to cart</button>
+    <button class='price_button' onclick=$add_botton >Add to cart </button>
    
     
     ";
@@ -203,8 +203,9 @@ for( $j=2; $j<$int1; $j++){
 
     echo "
     </div>
+    
     </div>
-    </div>
+    
     ";
  }
 
@@ -213,8 +214,9 @@ for( $j=2; $j<$int1; $j++){
 ?>
 
 </section>
-
-
+<div style="position:relative;" class="desktop_hide">
+<a href='card.php' class='text-white btn btn-danger mb-2' style ='width:100%;'>Open card(checkout)</a>
+  </div>
 
 
 
@@ -224,18 +226,18 @@ for( $j=2; $j<$int1; $j++){
 
 <div id="contact1">
 <p><span class="contact3">About Demo online shopping</span></p>
-    <p> <strong>Nkwana</strong> is online shopping store, that offers free delivery.<br> We have many branches all over South Africa.<p>
+    <p> <strong>Demo e-store</strong> is online shopping store, that offers free delivery.<br> We have many branches all over South Africa.<p>
 </div>
 
 
-<div id="about" style="background:linear-gradient(to bottom ,black,blue);">
-<p><span class="about1"><u>CONTACT INFORMATION</u></span></p>
+<div id="about">
+<p><span class="about1">CONTACT INFORMATION</span></p>
 
-   <p><i class="fa fa-phone" style="font-size:20px;"></i> <strong>Phone</strong>: (+27) 66 021 3188 </p>
+   <p><i class="fa fa-phone" style="font-size:12px;"></i> <strong>Phone</strong>: (+27) 66 021 3188 </p>
 
-   <p><i class="fa fa-whatsapp" style="font-size:20px; color:white"></i> <strong>WhatsApp</strong>: (+27) 66 021 3188 </p>
+   <p><i class="fa fa-whatsapp" style="font-size:12px; color:green"></i> <strong>WhatsApp</strong>: (+27) 66 021 3188 </p>
     
-   <p><i class="fa fa-facebook" style="font-size:20px; color:white;"></i> <strong>Facebook</strong>: <span clss="about1">Joseph Nkwana</span> </p>
+   <p><i class="fa fa-facebook" style="font-size:12px; color:blue;"></i> <strong>Facebook</strong>: <span clss="about1">Demo Online</span> </p>
 
     
  
@@ -244,13 +246,9 @@ for( $j=2; $j<$int1; $j++){
 <div class="messages">
 <p id="numb"></p>
 </div>
-<!--
-<div class="welcome.php">
-<h2>I'm about to output something</h2>
-<p>welcome to my <?php echo"profile(Belmiro Mohlala) ".date("l")." <strong>I was testing that function</strong >" ?></p>
-</div>-->
+
 <div id="contact1">
-    <p>Copyright<strong>&copy;&reg;</strong>2021<span>Demo Shopping</span>. All Rights Reserved</p>
+    <p>Copyright<strong>&copy;&reg;</strong>2020<span>Demo Online shopping</span>.All Rights Reserved</p>
     <p>Powered by <a href="http://www.weball.co.za">WebAll Technologies</a></p>
 </div>
 
