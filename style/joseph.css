@@ -563,17 +563,20 @@ text-align:center;}
 		width: 98%;
 	
 	}
-	.dress {
-		border: 1px solid rgb(4, 109, 112);
-		border-radius: 5px;
-		padding: 33px;
-		margin: 17px;
-		height: 16em;
-		width: 40%;
-		background-color: white;
-		-ms-overflow-style: none;
-		scrollbar-width: none;
-	}
+	
+
+.dress {
+    border: 1px solid rgb(4, 109, 112);
+    border-radius: 5px;
+    padding: 8%;
+    margin: 5%;
+    height: 16em;
+    width: 40%;
+    background-color: white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 	.dress::-webkit-scrollbar {
 		display:none;     /*hidding scrollbars for chrome safari and Opera*/
 		}
