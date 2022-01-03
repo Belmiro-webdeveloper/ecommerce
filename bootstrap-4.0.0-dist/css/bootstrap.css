@@ -2675,10 +2675,10 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
-  margin-top: 12%;
-
+  width: 10%;
+  position: absolute;
+  top: 9em;
 }
-
 .btn-danger:hover {
   color: #fff;
   background-color: #c82333;
