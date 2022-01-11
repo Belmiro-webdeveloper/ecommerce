@@ -49,8 +49,9 @@ input[type=submit]:hover{
 		left:1%;
 	}
 	.logo img{
-		width:60px;
-		height:60px;
+		width:58px;
+		height:58px;
+		margin: 6px;
 	}
 	.check_out{
 		padding: 10px;
@@ -77,7 +78,8 @@ input[type=submit]:hover{
 	.login{
 		position:absolute;
 		top:13px;
-		right:31%;
+		right:26%;
+		margin:3px;
 
 	}
 	.login a{
@@ -371,7 +373,7 @@ top:-2em;
 	
 
 	.contact {
-		background: linear-gradient(to bottom left , rgb(19, 19, 160),rgb(26, 26, 163));
+		background: rgb(27, 27, 204);
 		position: relative;
 		top: 9em;
 		padding: 7px;
@@ -476,15 +478,13 @@ top:-2em;
 		padding: 10px;
 	}
 	.dress {
-		/* float: left; */
 		border: 1px solid rgb(4, 109, 112);
-		padding: 5px;
-		border-radius: 10px;
-		margin-top: 4em;
-		width: 27%;
+		padding: 6px;
+		width: 23%;
 		height: 27em;
 		background-color: white;
-		margin: 3%;
+		margin: 1%;
+		border-radius: 5px;
 	}
 	.dress:hover{
 
@@ -503,8 +503,9 @@ top:-2em;
 		color:black;
 	}
 	.dress img {
-		width: 226px;
+		width: 98%;
 		height: 20em;
+	
 	}
 	.outfits button{
 		            background-color:red;
@@ -675,11 +676,11 @@ top:-2em;
 	.search i{
 		background: none;
 	}
-	.search{
-		position:absolute;
-		top:10px;
-		right:0%;
-		width: 13%;
+	.search {
+		position: absolute;
+		top: 19px;
+		right: -2%;
+		width: 20%;
 	}
 	.search input[type=text]{
 		color:blue;
@@ -695,15 +696,15 @@ top:-2em;
 		margin: 0;
 	}
 	
-	.search button{
+	.search button {
 		text-align: center;
-		padding:5px;
-		color:blue;
-		margin:6px;
-		height:40%;
-		
+		padding: 1px;
+		color: rgb(240, 240, 247);
+		margin: 2px;
+		height: 25%;
+		background: none;
+		border: none;
 	}
-	
 	
 	.top{
 		
@@ -720,7 +721,6 @@ top:-2em;
 	}
 .top h1{
 	    color:white;
-		text-shadow:2px 5px 4px rgb(102, 99, 99);
 		font-size:2.5em;
 		font-weight: bold;
 		text-align: center;
