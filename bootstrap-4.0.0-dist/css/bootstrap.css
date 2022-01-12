@@ -2678,11 +2678,15 @@ fieldset:disabled a.btn {
   width: 10%;
   position: absolute;
   top: 9em;
+ display: none;
+
 }
 .btn-danger:hover {
   color: #fff;
   background-color: #c82333;
   border-color: #bd2130;
+ display: none;
+  
 }
 
 .btn-danger:focus, .btn-danger.focus {
