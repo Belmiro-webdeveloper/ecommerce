@@ -72,7 +72,7 @@ echo $status;
 <br>
 <h3>
 
-<a href = "joseph.php" >Click here to go to the main page</a>
+<a href = "Joseph.php" >Click here to go to the main page</a>
 
 </h3>
 </div>

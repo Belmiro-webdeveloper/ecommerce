@@ -48,7 +48,7 @@
 <div class="cancel-manu">&times </div>
             <div class="dropdown_content1">
                 <ul>
-                    <li><a href="joseph.php">Home</a></li>
+                    <li><a href="Joseph.php">Home</a></li>
                     <li><a href="#about">About us</a></li>
                     <li><a href="#about">Contact us</a></li>
                 </ul>
@@ -58,7 +58,7 @@
 <div class="container-fluid pt-3" id="success">
 
 					   <h1 style='color:green;'>Account Created Successfully</h1>
-			           <p><a href='joseph.php'>click here to go to main page then login</a></p>
+			           <p><a href='Joseph.php'>click here to go to main page then login</a></p>
 					   
 					   
 <div class="container-fluid mp-4 border">
