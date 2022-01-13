@@ -48,7 +48,7 @@
 <div class="cancel-manu">&times </div>
             <div class="dropdown_content1">
                 <ul>
-                    <li><a href="joseph.php">Home</a></li>
+                    <li><a href="Joseph.php">Home</a></li>
                     <li><a href="#about">About us</a></li>
                     <li><a href="#about">Contact us</a></li>
                 </ul>
