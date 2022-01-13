@@ -398,9 +398,9 @@ animation:modal 1s;
 	body{margin:0px;
 	padding: 0px;}
 	.contact {
-		background: linear-gradient(to bottom left , rgb(19, 19, 160),rgb(26, 26, 163));
+		background: linear-gradient(to bottom left , rgb(19, 19, 160),rgb(95, 95, 202),blue);
 		position: relative;
-		top: 3em;
+		top: 7em;
 		padding: 7px;
 		width: 100%;
 		margin: 0;
@@ -1028,6 +1028,18 @@ text-align:center;
 		background-color:blue;
 	}
 
-
+	.desktop_hidee {
+		background: linear-gradient(to bottom left ,rgb(243, 4, 4),rgb(185, 79, 79),rgb(236, 7, 7));
+		position: relative;
+		height: auto;
+		align-content: center;
+		width: 100%;
+		top: 80px;
+	}
+	.text-whitee {
+		text-align: center;
+		color: white;
+		font-size: 22px;
+	}
 }
 

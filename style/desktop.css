@@ -373,12 +373,11 @@ top:-2em;
 	
 
 	.contact {
-		background: rgb(27, 27, 204);
-		position: relative;
-		top: 9em;
+		background: linear-gradient(to bottom left , rgb(19, 19, 160),rgb(95, 95, 202),blue);
+		top: 12em;
 		padding: 7px;
 		width: 100%;
-		margin: 0;
+		margin-top: 13%;
 		animation: contact 1s;
 		-webkit-animation: contact 1s;
 	}
@@ -472,7 +471,7 @@ top:-2em;
 	.men{
 		/*z-index:-1;*/
 		position:relative;
-		top:12em;
+		top:7em;
 		text-align:center;
 		margin:0px 0px 0em 0px;
 		padding: 10px;
@@ -743,7 +742,7 @@ width:100%;}
 	right:24%;
 	display:flex;
 	flex-direction: row;
-	top:0px;
+	top:2px;
 	z-index: 1;
 	background-color:rgba(109, 167, 194, 0.87) ;
 	padding:1px;
@@ -793,7 +792,7 @@ h2 a{
 text-decoration:none;}*/
 
 	
-}
+
 
 
 .joseph-description{
@@ -803,5 +802,20 @@ text-decoration:none;}*/
 	bottom: -10em;
 	color:rgb(116, 158, 161);
 	height: 15em;
+
+}
+.desktop_hidee {
+    background: linear-gradient(to bottom left ,rgb(243, 4, 4),rgb(185, 79, 79),rgb(236, 7, 7));
+    position: relative;
+    height: auto;
+    align-content: center;
+    width: 100%;
+    top:112px;
+}
+.text-whitee{
+	text-align: center;
+    color: white;
+	font-size: 26px;
+}
 
 }

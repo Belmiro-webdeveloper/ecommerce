@@ -44,7 +44,7 @@ if($_SERVER["REQUEST_METHOD"]== "POST"){
 
 				//setcookie('logged',$user,time(),'/');
 
-				header("location:joseph.php");
+				header("location:Joseph.php");
 			}
 			
 			else{

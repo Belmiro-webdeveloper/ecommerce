@@ -214,8 +214,8 @@ for( $j=2; $j<$int1; $j++){
 ?>
 
 </section>
-<div style="position:relative;" class="desktop_hide">
-<a href='card.php' class='text-white btn btn-danger mb-2' style ='width:100%;'>Open card(checkout)</a>
+<div style="position:relative;" class="desktop_hidee">
+<a href='card.php' class='text-whitee' style ='width:100%;color:white;'>Open card(checkout)</a>
   </div>
 
 
